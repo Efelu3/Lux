@@ -8,3 +8,4 @@ root.render(
     <Lux />
   </React.StrictMode>
 );
+
