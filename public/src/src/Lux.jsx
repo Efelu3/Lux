@@ -50,22 +50,14 @@ export default function Lux() {
         borderRadius: '8px',
         boxShadow: '0 0 40px rgba(255, 255, 255, 0.02)'
       }}>
-        <h2 style={{
-          fontSize: '0.9rem',
-          fontWeight: '400',
-          textTransform: 'uppercase',
-          letterSpacing: '0.1em',
-          opacity: 0.6,
-          marginBottom: '0.5rem'
-        }}>
-          Llave de acceso
-        </h2>
         <p style={{
           fontSize: '1rem',
-          fontStyle: 'italic',
-          color: '#ccc'
+          marginBottom: '2rem',
+          color: '#ccc',
+          textAlign: 'center'
         }}>
-          “Háblame con la verdad y haciendo uso de todo tu potencial.”
+          Puedes hacer una consulta gratuita.  
+          Si deseas acceso continuo, suscríbete por S/.10 al mes.
         </p>
 
         <a
@@ -75,18 +67,39 @@ export default function Lux() {
           style={{ textDecoration: 'none' }}
         >
           <button style={{
-            marginTop: '1.75rem',
             width: '100%',
             padding: '0.85rem',
-            backgroundColor: 'white',
-            color: 'black',
+            backgroundColor: '#ffffff',
+            color: '#000000',
             border: 'none',
+            borderRadius: '6px',
+            fontWeight: 'bold',
+            fontSize: '1rem',
+            cursor: 'pointer',
+            marginBottom: '1rem'
+          }}>
+            Hacer prueba gratuita
+          </button>
+        </a>
+
+        <a
+          href="https://www.mercadopago.com.pe/subscriptions/checkout?preapproval_plan_id=2c93808496ee762b0196f50f656f0302"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          <button style={{
+            width: '100%',
+            padding: '0.85rem',
+            backgroundColor: '#f2f2f2',
+            color: '#000000',
+            border: '1px solid #333',
             borderRadius: '6px',
             fontWeight: 'bold',
             fontSize: '1rem',
             cursor: 'pointer'
           }}>
-            Acceder
+            Suscribirme por S/.10
           </button>
         </a>
       </div>
@@ -102,3 +115,4 @@ export default function Lux() {
     </div>
   );
 }
+
