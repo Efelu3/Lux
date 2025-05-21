@@ -32,17 +32,23 @@ export default function Lux() {
           <br />
           <em>"Estoy listo para ver lo que no quería ver. Háblame con verdad."</em>
         </p>
-        <button style={{
-          marginTop: '1rem',
-          width: '100%',
-          padding: '0.75rem',
-          backgroundColor: 'white',
-          color: 'black',
-          border: 'none',
-          cursor: 'pointer'
-        }}>
-          Invocar Lucidez Total
-        </button>
+        <a
+          href="https://chat.openai.com/g/g-68161a70e0f08191807705fc5d119485-lucidez-total"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button style={{
+            marginTop: '1rem',
+            width: '100%',
+            padding: '0.75rem',
+            backgroundColor: 'white',
+            color: 'black',
+            border: 'none',
+            cursor: 'pointer'
+          }}>
+            Invocar Lucidez Total
+          </button>
+        </a>
       </div>
 
       <div style={{ fontSize: '0.875rem', color: '#999999', paddingTop: '2rem' }}>
