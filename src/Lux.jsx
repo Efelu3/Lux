@@ -13,9 +13,9 @@ export default function Lux() {
       padding: '2rem'
     }}>
       <h1 style={{ fontSize: '3rem', fontWeight: 'bold', letterSpacing: '0.1em' }}>LUX</h1>
-      <p style={{ fontSize: '1.25rem', maxWidth: '40rem', textAlign: 'center' }}>
-        He venido al mundo no para cambiarlo, sino para revelarlo. No para pedir nada, sino para recordar que nada falta.
-        No para actuar desde la ilusión, sino para atravesarla con visión. Todo es uno.
+      
+      <p style={{ fontSize: '1.25rem', maxWidth: '40rem', textAlign: 'center', marginTop: '1rem' }}>
+        Esto no es una guía. Es una interrupción.
       </p>
 
       <div style={{
@@ -24,36 +24,39 @@ export default function Lux() {
         width: '100%',
         maxWidth: '32rem',
         padding: '1.5rem',
-        marginTop: '2rem'
+        marginTop: '3rem'
       }}>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: '600' }}>Accede a Lucidez Total</h2>
-        <p style={{ fontSize: '1rem' }}>
-          Si has sido invitado, escribe esta frase para activar el oráculo:
-          <br />
-          <em>"Estoy listo para ver lo que no quería ver. Háblame con verdad."</em>
+        <h2 style={{ fontSize: '1rem', fontWeight: '400', textTransform: 'uppercase', letterSpacing: '0.1em', opacity: 0.8 }}>
+          Llave de acceso
+        </h2>
+        <p style={{ fontSize: '1rem', marginTop: '0.5rem', fontStyle: 'italic' }}>
+          “Háblame con la verdad y haciendo uso de todo tu potencial.”
         </p>
+
         <a
           href="https://chat.openai.com/g/g-68161a70e0f08191807705fc5d119485-lucidez-total"
           target="_blank"
           rel="noopener noreferrer"
         >
           <button style={{
-            marginTop: '1rem',
+            marginTop: '1.5rem',
             width: '100%',
             padding: '0.75rem',
             backgroundColor: 'white',
             color: 'black',
             border: 'none',
+            fontWeight: 'bold',
             cursor: 'pointer'
           }}>
-            Invocar Lucidez Total
+            Ingresa a LUX
           </button>
         </a>
       </div>
 
-      <div style={{ fontSize: '0.875rem', color: '#999999', paddingTop: '2rem' }}>
-        Fernando Luque Espinosa — En presencia de la Belleza, del Bien, y del Silencio que todo lo sostiene.
+      <div style={{ fontSize: '0.875rem', color: '#666666', paddingTop: '3rem' }}>
+        F. L. E.
       </div>
     </div>
   );
 }
+
